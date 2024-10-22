@@ -1,0 +1,315 @@
+/* section{
+    transition: all 1.5s ease;
+} */
+
+h2 span {
+    display: inline-block;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    opacity: 0;
+    background-image: linear-gradient(35deg, var(--blue) 0%, var(--light-blue) 10%, var(--sec-color) 100%);
+    color: transparent;
+    background-clip: text;
+}
+
+.section3.animated h2 span {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section2 .Section__Header h1,
+.section3 .Section__Header h1,
+.section4 .Section__Header h1 {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: transform 1s ease, opacity 1s ease-in;
+}
+
+.section2 .Section__Header p,
+.section4 .Section__Header p {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: transform 1s ease, opacity 1s ease-in;
+}
+
+.section2.animated .Section__Header h1,
+.section3.animated .Section__Header h1,
+.section4.animated .Section__Header h1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section2.animated .Section__Header p,
+.section4.animated .Section__Header p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.section1 .logoText {
+    opacity: 0;
+    transition: opacity 4s ease;
+}
+
+.section1 .mainContent .Mainlogo .MovieIcon {
+    transform: translate(200px, 0) rotate(360deg);
+    opacity: 0;
+    transition: transform 2s ease, opacity 2s ease;
+}
+
+.section1 .mainText p {
+    transform: translatex(-100%);
+    opacity: 0;
+    transition: transform 2s ease, opacity 2s ease;
+}
+
+.section1 .mainText a {
+    opacity: 0;
+}
+
+.section1 .mainBanner .imgContainer {
+    opacity: 0;
+    /* transition: transform 2s ease, opacity 3s ease; */
+}
+
+/* Show Animation */
+.section1.animated .logoText {
+    opacity: 1;
+}
+
+.section1.animated .mainContent .Mainlogo .MovieIcon {
+    left: 15.8%;
+    animation: smoothAnimation 2s ease forwards, rotate 3s ease 3s infinite;
+}
+
+@keyframes smoothAnimation {
+    0% {
+        transform: translate(200px, 0) rotate(360deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.section1.animated .mainText p {
+    transform: translatex(0);
+    opacity: 1;
+}
+
+.section1.animated .mainText a {
+    animation: BtnAnimation 2s ease 1.5s forwards;
+}
+
+@keyframes BtnAnimation {
+    0% {
+        transform: translate(0, -10%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+.section1.animated .mainBanner .imgContainer {
+    /* transform: translateY(0);
+    opacity: 1; */
+    animation: imgAnimation 2s ease forwards;
+}
+
+@keyframes imgAnimation {
+    0% {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* End */
+.section2 .cardContainer .card {
+    transform: translateY(200px);
+    opacity: 0;
+}
+
+.section2.animated .cardContainer {
+    .card {
+        animation: cardAnimation 3s ease forwards;
+        transition: all 2s ease-out;
+    }
+}
+
+@keyframes cardAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Section 4 */
+.section4 .feature--Header h1,
+.section4 .PhoneDownl,
+.section5 .TVDownl {
+    h3 {
+        /* transform: translateX(100%); */
+        opacity: 0;
+    }
+
+    p {
+        opacity: 0;
+    }
+
+    a {
+        opacity: 0;
+    }
+}
+.section4 .Phonebanner ,.section5 .TVbanner{
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+.section4.animated .Phonebanner ,.section5.animated .TVbanner{
+    opacity: 1;
+}
+
+/* Show Animation */
+.section4.animated .PhoneDownl{
+    h3 {
+        /* opacity: 1; */
+        animation: PHHeaderanimation 1s ease forwards;
+    }
+
+    P {
+        animation: PHtextanimation 1.5s ease forwards;
+    }
+
+    a {
+        /* transform: translateY(0);
+        opacity: 1; */
+        animation: BtnAnimation 2s ease 1.5s forwards;
+    }
+}
+
+@keyframes PHtextanimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes PHHeaderanimation {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.section5.animated .TVDownl {
+    h3 {
+        /* opacity: 1; */
+        animation: TVHeaderanimation 1s ease forwards;
+    }
+
+    P {
+        animation: TVtextanimation 1.5s ease forwards;
+    }
+
+    a {
+        /* transform: translateY(0);
+        opacity: 1; */
+        animation: BtnAnimation 2s ease 1.2s forwards;
+    }
+}
+
+@keyframes TVtextanimation {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes TVHeaderanimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* for Contact Us Section */
+.section6 h1{
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+.section6 p{
+    transform: translateY(100%);
+    opacity: 0;
+}
+.section6 .Btun{
+    transform:translateY(-30px) ;
+    opacity: 0;
+}
+.section6.animated {
+    h1{
+        animation: PHHeaderanimation 1s ease forwards;
+    }
+    p{
+        animation: PHtextanimation 1.5s ease forwards;
+    }
+    .Btun{
+        animation: BtnAnimation 2s ease 1.5s forwards;
+    }
+}

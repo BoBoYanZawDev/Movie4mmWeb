@@ -1,0 +1,107 @@
+@import url("./color.css");
+.nav-link.active ,.dropdown-menu .dropdown-item.active{
+    color:crimson !important;
+}
+.dropdown-menu .dropdown-item.active{
+    background-color: transparent;
+}
+header {
+    font-family: "Roboto", sans-serif !important;
+    transition: all 0.6s;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.container {
+    /* overflow: hidden; */
+}
+
+.navCollection a ,.dropdown-menu a{
+    text-decoration: none;
+    font-size: 1em !important;
+    font-weight: 500 !important;
+}
+#movie4mm-Logo {
+    width: 13rem;
+    height: auto;
+}
+
+
+.link:hover {
+    color: var(--light-blue);
+}
+
+/* Reponsive Humbager Toggle Button */
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.toggler-icon {
+    display: block;
+    position: absolute;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+    height: 3px;
+    width: 100%;
+    background: var(--blue);
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* When Nav button is Clicked */
+
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: opacity(0);
+}
+
+.navbar-toggler .button-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+/* when the navbar is collapsed */
+.navbar-toggler.collapsed .top-bar {
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: opacity(100);
+}
+
+.navbar-toggler.collapsed .button-bar {
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+/* ---Reponsive Humbager Toggle Button End--- */

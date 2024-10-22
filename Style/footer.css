@@ -1,0 +1,73 @@
+@import url(./color.css);
+
+:root {
+    --font-size: 16px;
+}
+
+footer {
+    padding-top: 130px;
+    overflow: hidden;
+    position: relative;
+
+    .footerContent::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        left: 0;
+        width: 100%;
+        transform: skewY(178deg);
+        bottom: -6em;
+        background-image: linear-gradient(30deg, #101113, #1D194D);
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%,#1b1e2e 100%); */
+        z-index: -1;
+    }
+}
+
+.logoContainer .logo {
+    position: relative;
+    width: min(90%, 18em);
+    height: auto;
+
+    img {
+        width: 100%;
+    }
+}
+
+footer {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.contentColoum h6 {
+    font-size: 18px;
+}
+
+.contentColoum .headerOutline {
+    width: 50px;
+    border-top: 2px solid var(--light-blue);
+    opacity: 1;
+}
+
+footer a {
+    font-size: var(--font-size);
+    margin: 0;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: #abc6fa;
+    }
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    padding: 6px 0;
+}
+
+footer .Copyright {
+    background-color: #11192f;
+    /* background-color: #232837; */
+}
