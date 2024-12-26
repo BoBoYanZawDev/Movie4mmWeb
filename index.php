@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Movie4mm</title>
-  <link rel="icon" type="image/x-icon" href="./Assets/App Icon.png" sizes="16x16" />
-  <link rel="stylesheet" href="./Style/StyleReset.css" />
+  <link rel="icon" type="image/x-icon" href="./asstes/App Icon.png" sizes="16x16" />
+  <link rel="stylesheet" href="./Style/stylereset.css" />
   <!-- Bootstrap Link -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,9 +27,9 @@
   <link rel="stylesheet" href="./Style/header.css" />
   <link rel="stylesheet" href="./Style/footer.css" />
   <link rel="stylesheet" href="./Style/index.css" />
-  <link rel="stylesheet" href="./Style/ScrollTopButton.css" />
+  <link rel="stylesheet" href="./Style/scrolltopbutton.css" />
   <link rel="stylesheet" href="./Style/stars.css">
-  <link rel="stylesheet" href="./Style/Scrollanimated.css">
+  <link rel="stylesheet" href="./Style/scrollanimated.css">
 </head>
 
 <div>
@@ -39,7 +39,7 @@
         <div class="col-12">
           <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="./">
-              <img id="movie4mm-Logo" src="./Assets/Movie 4 mm logo Black(126x36)-01.png" alt="Linn Logo" />
+              <img id="movie4mm-Logo" src="./asstes/Movie 4 mm logo Black(126x36)-01.png" alt="Linn Logo" />
             </a>
             <!-- Reponsive Button Toggle -->
             <button class="navbar-toggler d-flex d-lg-none flex-column justify-content-around collapsed" type="button"
@@ -90,8 +90,8 @@
           <div
             class="mainContent col-md-5 col-12 ps-md-5 py-md-5 pt-5 d-flex justify-content-center align-items-md-start align-items-center flex-column">
             <div class="Mainlogo my-4">
-              <img src="./Assets/Movie4mmG.png" alt="M vie4mm" class="logoText" />
-              <img src="./Assets/Movie 4mm(movie Icon).png" alt="o" class="MovieIcon" />
+              <img src="./asstes/Movie4mmG.png" alt="M vie4mm" class="logoText" />
+              <img src="./asstes/Movie 4mm(movie Icon).png" alt="o" class="MovieIcon" />
             </div>
             <div class="mainText pe-xl-5 pe-lg-4 my-2">
               <p>
@@ -105,7 +105,7 @@
           </div>
           <div class="mainBanner col-md-7 col-12 py-5">
             <div class="imgContainer">
-              <img src="./Assets/devices-home-mobile1.png" alt="Inerface" class="bannerImg" />
+              <img src="./asstes/devices-home-mobile1.png" alt="Inerface" class="bannerImg" />
             </div>
           </div>
         </div>
@@ -232,44 +232,44 @@
                 Android ဖုန်းများအတွက် Stream တိုက်ရိုက်ကြည့်ရှု့နိုင်ပြီး
                 အလွယ်တကူ One Click Downloadရယူနိုင်သော Android App ဖြစ်ပါသည်။
               </p>
-              <a class="mt-3 Btun" href="./ApkFile/android (3).apk"><i
+              <a class="mt-3 Btun" href="./apkFile/android (3).apk"><i
                   class="fa-solid fa-mobile-screen"></i>Download</a>
             </div>
             <div class=" col-lg-4 col-12 px-lg-5">
               <div class="d-flex justify-content-center">
                 <div class="slider owl-carousel slider_carousel text-center Phonebanner">
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/Home.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/Home.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/Moviepage.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/Moviepage.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/Live.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/Live.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/Series.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/Series.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/MenuSlider.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/MenuSlider.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/Gern.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/Gern.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/myAccount1.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/myAccount1.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/Setting.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/Setting.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/ChoisePlayer.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/ChoisePlayer.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface/MovieRequest.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface/MovieRequest.png">
                   </div>
                   <div class="card_box">
-                    <img class="img-fluid w-100" src="./Assets/PhoneInterface//ReportMovie.png">
+                    <img class="img-fluid w-100" src="./asstes/phone_interface//ReportMovie.png">
                   </div>
                 </div>
               </div>
@@ -286,28 +286,28 @@
             <div class="d-flex justify-content-center">
               <div class="slider owl-carousel slider_carousel text-center TVbanner">
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/logoInterface.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/logoInterface.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/Sci-fi.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/Sci-fi.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/Channel Interface.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/Channel Interface.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/movie.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/movie.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/Series.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/Series.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface//Series1.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface//Series1.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/Slidebar.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/Slidebar.png">
                 </div>
                 <div class="card_box">
-                  <img class="img-fluid w-100" src="./Assets/TVInterface/MyAcc.png">
+                  <img class="img-fluid w-100" src="./asstes/tv_interface/MyAcc.png">
                 </div>
               </div>
             </div>
@@ -319,14 +319,14 @@
             <p class="fs-6 d-inline-block pe-md-5">
               Android TV,Android Box များအတွက် ရည်ရွယ်ထားသော Android App ဖြစ်ပါသည်။
             </p>
-            <a class="mt-3 Btun" href="./ApkFile/movie4mm-tv-1.2.2-linn-app-store.apk">
+            <a class="mt-3 Btun" href="./apkFile/movie4mm-tv-1.2.2-linn-app-store.apk">
               <i class="fa-solid fa-tv"></i>Download
             </a>
           </div>
         </div>
       </div>
     </section>
-  <!-- <section class="section6 py-5" id="contact">
+  <section class="section6 py-5" id="contact">
     <div class="container-fluid py-4">
       <div class="container">
         <div class="row">
@@ -345,13 +345,13 @@
           </div>
           <div class="mainBanner col-md-7 col-12 py-5">
             <div class="imgContainer">
-              <img src="./Assets/ContactVactorArt.png" alt="Inerface" class="bannerImg" />
+              <img src="./asstes/ContactVactorArt.png" alt="Inerface" class="bannerImg" />
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!-- Footer -->
   <footer>
     <div class="container-fluid footerContent text-white p-4 pt-sm-5 justify-content-center d-flex">
@@ -360,7 +360,7 @@
         <!-- first Coloum -->
         <div class="contentColoum logoContainer col-lg-5 col-sm-12 py-5 py-md-2">
           <div class="logo">
-            <img src="./Assets/Movie 4 mm logo White (126x36).png" alt="" />
+            <img src="./asstes/Movie 4 mm logo White (126x36).png" alt="" />
           </div>
         </div>
 
@@ -394,7 +394,7 @@
     <div class="container-fluid Copyright">
       <div class="d-flex justify-content-center container py-3">
         <a href="#" class="fs-6">
-          Copyright &copy; 2024, Movie4MM All Rights Reserved.
+          Copyright &copy; <?= date('Y') ?>, Movie4MM All Rights Reserved.
         </a>
       </div>
     </div>
@@ -406,7 +406,7 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="./js/index.js"></script>
-  <script src="./js/ScrollTopComponent.js"></script>
+  <script src="./js/scrolltopcomponent.js"></script>
   <script src="./js/Interface-slider/jquery-3.4.1.min.js"></script>
   <script src="./js/Interface-slider/owl.carousel.min.js"></script>
   <script src="./js/Interface-slider/Slider.js"></script>
